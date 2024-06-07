@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+
+        var trafficLight = prompt("Enter color of road Traffic signal : ");
+
+        document.write("<h2>Task</h2>");
+
+        if(trafficLight == 'red'|| trafficLight == 'Red'){
+            console.log("Must Stop!");
+        }
+        else if(trafficLight == 'Yellow'|| trafficLight == 'yellow'){
+            console.log("Ready to move!");
+        }
+        else if(trafficLight == 'Green'|| trafficLight == 'green'){
+            console.log("Move now!");
+        }
+        else{
+            console.log("Enter correct color of road Traffic signal.");
+        }
+
+    </script>
+</body>
+</html>
